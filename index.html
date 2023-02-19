@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="box">
+    <div class="result">
+      <p class="your-result">Your Result</p>
+      <div class="circle-points">
+        <p class="point">76</p>
+        <p class="point-of">of 100</p>
+      </div>
+      <p class="rate">Great</p>
+      <p class="rate-description">You scored higher than 65% of the people who have taken
+        these tests.</p>
+    </div>
+    <div class="summary">
+      <p class="summary-title">Summary</p>
+      <div class="summary-item"
+        style="--color: hsl(0, 100%, 67%); --bg-color: hsla(0, 100%, 67%, 0.08)">
+        <img src="./assets/images/icon-reaction.svg" alt="reaction icon" />
+        Reaction
+        <span class="points-and-max"><span class="point">80</span> / 100</span>
+      </div>
+      <div class="summary-item"
+        style="--color: hsl(39, 100%, 56%); --bg-color: hsla(39, 100%, 56%, 0.08)">
+        <img src="./assets/images/icon-memory.svg" alt="memory icon">
+        Memory
+        <span class="points-and-max"><span class="point">92</span> / 100</span>
+      </div>
+      <div class="summary-item"
+        style="--color: hsl(166, 100%, 37%); --bg-color: hsla(166, 100%, 37%, 0.08)">
+        <img src="./assets/images/icon-verbal.svg" alt="verbal icon">
+        Verbal
+        <span class="points-and-max"><span class="point">61</span> / 100</span>
+      </div>
+      <div class="summary-item"
+        style="--color: hsl(234, 85%, 45%); --bg-color: hsla(234, 85%, 45%, 0.08)">
+        <img src="./assets/images/icon-visual.svg" alt="visual icon">
+        Visual
+        <span class="points-and-max"><span class="point">72</span> / 100</span>
+      </div>
+      <button class="continue"><span>Continue</span></button>
+    </div>
+  </div>
+</body>
+</html>
